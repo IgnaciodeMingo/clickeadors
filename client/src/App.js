@@ -20,7 +20,7 @@ const App = () => {
     const url = 'http://localhost:4000/api/scores';
     axios.get(url)
       .then(res => {
-        console.log('Llendo a buscar datos al backend...');
+        console.log('Yendo a buscar datos al backend...');
         console.log(res.data);
         setScores(res.data);
       })
