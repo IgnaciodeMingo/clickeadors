@@ -1,6 +1,6 @@
 body {
-  background-image: url(http://www.elmundodelapolitica.com/v2/wp-content/uploads/2021/05/unnamed-9.jpg);
-
+  background-image: url(https://fondosmil.com/fondo/15994.jpg);
+background-size: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,43 +14,50 @@ code {
     monospace;
 }
 button{
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Permanent Marker', cursive;
   width: 200px;
-  background: yellow;
+  background: violet;
   cursor: pointer;
+  
+  transition: 1s;
 }
 button:hover{
-  opacity: 0.8;
+background-color:pink;
+transform: skewX(180deg);
 }
 .App {
-  border: 3px solid blue;
+
 
 }
 
 .Timer {
-  border: 3px solid red;
-  color: gold;
+background-color: gold;
+
+  color: blue;
 }
 
 .Play {
+  font-family: 'Permanent Marker', cursive;
   background: inherit;
   text-align: center;
   color: gold;
 }
 
 .Score {
-  border: 3px solid violet;
+  font-family: 'Permanent Marker', cursive;
+
   color: gold;
 }
 
 .HiScores {
-  border: 3px solid pink;
+  font-family: 'Permanent Marker', cursive;
+
   position: absolute;
   color: gold;
 }
 
 .Top {
-  border: 2px solid black;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -62,5 +69,10 @@ button:hover{
   margin: 10px;
   width: 300px;
   height: 200px;
-  background-color: skyblue;
+  background-color: purple;
+  transition: 1.5s;
+  border-radius: 25px;
+}
+.PlayArea:hover{
+background-color: pink;
 }
